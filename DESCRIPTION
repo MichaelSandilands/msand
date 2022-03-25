@@ -22,4 +22,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     magrittr,
-    rlang (>= 0.4.11)
+    rlang (>= 0.4.11),
+    tibble
