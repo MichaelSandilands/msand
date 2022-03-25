@@ -19,7 +19,8 @@ Suggests:
     knitr,
     rmarkdown,
     roxygen2,
-    scales
+    scales,
+    tidyverse
 VignetteBuilder: knitr
 Imports: 
     magrittr,
