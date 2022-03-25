@@ -24,4 +24,5 @@ VignetteBuilder: knitr
 Imports: 
     magrittr,
     rlang (>= 0.4.11),
-    tibble
+    tibble,
+    ggplot2
