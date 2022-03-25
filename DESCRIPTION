@@ -18,7 +18,8 @@ BugReports: https://github.com/MichaelSandilands/msand/issues
 Suggests: 
     knitr,
     rmarkdown,
-    roxygen2
+    roxygen2,
+    scales
 VignetteBuilder: knitr
 Imports: 
     magrittr,
