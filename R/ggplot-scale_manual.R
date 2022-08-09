@@ -14,7 +14,7 @@ NULL
 #' @export
 palette_msand <- function() {
 
-    c(sand         = "#d3ba68",
+    c(sand         = "#fad25a",
       orange       = "#dd8925",
       red          = "#d80000",
       magenta      = "#bc5090",

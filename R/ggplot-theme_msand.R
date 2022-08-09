@@ -27,7 +27,7 @@ theme_msand <- function(base_size = 11, base_family = "") {
     black      <- "#18191A"
     light_grey <- "#999999"
     dark_grey  <- "#545454"
-    sand       <- "#D3BA68"
+    sand       <- "#fad25a"
     white      <- "#FFFFFF"
     strip      <- "#2C2C2C"
 
