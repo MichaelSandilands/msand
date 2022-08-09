@@ -1,12 +1,30 @@
 Package: msand
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Type: Package
+Title: Personal Package for Visualizations and RMarkdown Templates
+Version: 0.1.0
+Author: c(
+    person("Michael", "Sandilands", email = michael.b.sandilands@gmail.com, role = c("aut", "cre")))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: 
+    Custom colour palette and themes for visualization.
+    Custom rmarkdown templates for presentations, github_documentation html_documentation, PDFs, etc.
+License: MIT + file LICENSE
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+LazyData: true
 RoxygenNote: 7.2.1
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/MichaelSandilands/msand
+BugReports: https://github.com/MichaelSandilands/msand/issues
+Suggests: 
+    knitr,
+    rmarkdown,
+    roxygen2,
+    scales,
+    testthat (>= 3.0.0),
+    tidyverse
+VignetteBuilder: knitr
+Imports: 
+    magrittr,
+    rlang (>= 0.4.11),
+    tibble,
+    ggplot2
