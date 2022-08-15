@@ -31,7 +31,7 @@ ft <- fp_text(shading.color='#EFEFEF', bold = TRUE)
 <br />  
 
 ```{r, echo=FALSE, fig.align='center', fig.height=0.5}
-knitr::include_graphics("sandilands_logo.png")
+knitr::include_graphics("sandilands_data_science_logo.png")
 ```
 
 \newpage
