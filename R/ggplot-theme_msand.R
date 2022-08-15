@@ -30,7 +30,6 @@ theme_msand <- function(base_size = 11, base_family = "") {
     sand       <- "#fad25a"
     white      <- "#FFFFFF"
     strip      <- "#2C2C2C"
-    background <- "#808080"
 
     # Starts with theme_grey and then modify some parts
     ggplot2::theme_grey(base_size = base_size, base_family = base_family) %+replace%
@@ -53,14 +52,14 @@ theme_msand <- function(base_size = 11, base_family = "") {
             axis.title         = ggplot2::element_text(size = ggplot2::rel(1.0)),
 
             # Panel
-            panel.background   = ggplot2::element_rect(fill  = background, color = NA),
+            panel.background   = ggplot2::element_rect(fill  = white, color = NA),
             panel.border       = ggplot2::element_rect(fill = NA, size = ggplot2::rel(1/2), color = dark_grey),
             panel.grid.major   = ggplot2::element_line(color = dark_grey, size = ggplot2::rel(1/3)),
             panel.grid.minor   = ggplot2::element_line(color = dark_grey, size = ggplot2::rel(1/3)),
 
             # Legend
-            legend.background  = ggplot2::element_blank(),
-            legend.key         = ggplot2::element_rect(fill = background, color = NA),
+            legend.white  = ggplot2::element_blank(),
+            legend.key         = ggplot2::element_rect(fill = white, color = NA),
             legend.position    = "bottom",
 
             # Strip (Used with multiple panels)
@@ -76,7 +75,7 @@ theme_msand <- function(base_size = 11, base_family = "") {
             plot.subtitle      = ggplot2::element_text(size = ggplot2::rel(0.9), hjust = 0,
                                                        margin = ggplot2::margin(t = 0, r = 0, b = 3, l = 0,
                                                                                 unit = "pt")),
-            plot.background    = ggplot2::element_rect(fill = background, colour = background),
+            plot.background    = ggplot2::element_rect(fill = white, colour = white),
 
             # Complete theme
             complete = TRUE
