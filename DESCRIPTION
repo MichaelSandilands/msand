@@ -21,8 +21,8 @@ Suggests:
     roxygen2,
     scales,
     testthat (>= 3.0.0),
-    tidyverse
-    officedown
+    tidyverse,
+    officedown,
     officer
 VignetteBuilder: knitr
 Imports: 
