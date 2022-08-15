@@ -58,7 +58,7 @@ theme_msand <- function(base_size = 11, base_family = "") {
             panel.grid.minor   = ggplot2::element_line(color = dark_grey, size = ggplot2::rel(1/3)),
 
             # Legend
-            legend.white  = ggplot2::element_blank(),
+            legend.background  = ggplot2::element_blank(),
             legend.key         = ggplot2::element_rect(fill = white, color = NA),
             legend.position    = "bottom",
 
