@@ -2,14 +2,22 @@
 % Please edit documentation in R/ggplot-scale_manual.R
 \name{palette_msand}
 \alias{palette_msand}
+\alias{palette_msand2}
 \title{msand palettes for use with scales}
 \usage{
 palette_msand()
+
+palette_msand2()
 }
 \description{
 These palettes are mainly called internally by msand \verb{scale_*_msand()} functions.
+
+These palettes are mainly called internally by msand \verb{scale_*_msand()} functions.
 }
 \examples{
+library(scales)
+scales::show_col(palette_msand())
+
 library(scales)
 scales::show_col(palette_msand())
 

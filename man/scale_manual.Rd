@@ -5,6 +5,9 @@
 \alias{scale_colour_msand}
 \alias{scale_color_msand}
 \alias{scale_fill_msand}
+\alias{scale_colour_msand2}
+\alias{scale_color_msand2}
+\alias{scale_fill_msand2}
 \title{msand colors and fills for ggplot2.}
 \usage{
 scale_colour_msand(...)
@@ -12,6 +15,12 @@ scale_colour_msand(...)
 scale_color_msand(...)
 
 scale_fill_msand(...)
+
+scale_colour_msand2(...)
+
+scale_color_msand2(...)
+
+scale_fill_msand2(...)
 }
 \arguments{
 \item{...}{common discrete scale parameters: \code{name}, \code{breaks}, \code{labels}, \code{na.value}, \code{limits} and \code{guide}. See \code{\link[=discrete_scale]{discrete_scale()}} for more details}
@@ -28,6 +37,18 @@ For use when \code{colour} is specified as an \code{aes()} in a ggplot.}
 \item{\code{scale_fill_msand}}{
 For use when \code{fill} is specified as an \code{aes()} in a ggplot.}
 }
+
+The msand scales add colors that work nicely with \code{theme_msand()}.
+
+@details
+\describe{
+
+\item{\code{scale_colour_msand2}}{
+For use when \code{colour} is specified as an \code{aes()} in a ggplot.}
+
+\item{\code{scale_fill_msand2}}{
+For use when \code{fill} is specified as an \code{aes()} in a ggplot.}
+}
 }
 \examples{
 library(ggplot2)
@@ -38,7 +59,17 @@ diamonds \%>\%
     scale_colour_msand() +
     theme_msand()
 
+library(ggplot2)
+
+diamonds \%>\%
+    ggplot(aes(carat, price, colour = cut)) +
+    geom_point() +
+    scale_colour_msand2() +
+    theme_msand()
+
 }
 \seealso{
+\code{\link[=theme_msand]{theme_msand()}}
+
 \code{\link[=theme_msand]{theme_msand()}}
 }
